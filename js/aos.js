@@ -1,84 +1,39 @@
 xgallery_images = [
   {
-    url: "https://assets.codepen.io/1692350/61.png",
-    prompt: "abstract 3d render, rococo, octane render, detailed, black and gold",
+    url: "../img/ProjetImg/chat.png",
+    prompt: "Chat Application using scss",
     date: "17.11.2022",
     tags: "abstract"
   },{
-    url: "https://assets.codepen.io/1692350/62.png",
-    prompt: "abstract 3d render, rococo, octane render, detailed, black and gold",
+    url: "../img/ProjetImg/mekono.png",
+    prompt: "A website for a company",
     date: "17.11.2022",
     tags: "abstract"
   },{
-    url: "https://assets.codepen.io/1692350/60.png",
-    prompt: "abstract 3d crystals render, octane render",
+    url: "../img/ProjetImg/meteo.png",
+    prompt: "A weather application",
     date: "17.11.2022",
     tags: "abstract"
   },{
-    url: "https://assets.codepen.io/1692350/59.png",
-    prompt: "abstract 3d crystals render, octane render",
+    url: "../img/ProjetImg/portfolio_exemple.png",
+    prompt: "A portfolio website",
     date: "17.11.2022",
     tags: "abstract"
   },{
-    url: "https://assets.codepen.io/1692350/58.png",
-    prompt: "abstract 3d city, octane render, rococo + , abstract + , detailed, black with gold details",
+    url: "../img/ProjetImg/prisma.png",
+    prompt: "A website for a company",
     date: "17.11.2022",
     tags: "scenery"
   },{
-    url: "https://assets.codepen.io/1692350/57.png",
-    prompt: "abstract 3d human face, octane render, rococo + , detailed, black with gold details",
+    url: "../img/ProjetImg/REDSTORE.png",
+    prompt: "A website for a company",
     date: "17.11.2022",
     tags: "abstract"
   },{
-    url: "https://assets.codepen.io/1692350/56.png",
-    prompt: "abstract 3d human face, octane render, rococo + , detailed, black with gold details",
+    url: "../img/ProjetImg/search.png",
+    prompt: "A website for a company",
     date: "17.11.2022",
     tags: "abstract"
-  },{
-    url: "https://assets.codepen.io/1692350/55.png",
-    prompt: "abstract 3d statue, octane render, detailed, black with gold details",
-    date: "17.11.2022",
-    tags: "abstract"
-  },{
-    url: "https://assets.codepen.io/1692350/54.png",
-    prompt: "abstract 3d statue, octane render, detailed, black with gold details",
-    date: "17.11.2022",
-    tags: "abstract"
-  },{
-    url: "https://assets.codepen.io/1692350/53.png",
-    prompt: "abstract 3d statue, octane render, detailed, black with gold details",
-    date: "17.11.2022",
-    tags: "abstract"
-  },{
-    url: "https://assets.codepen.io/1692350/47.png",
-    prompt: "splash art, neo noir, cyberpunk girl character portrait, standing in city center, detailed, monochrome with red details",
-    date: "15.11.2022",
-    tags: "characters"
-  },{
-    url: "https://assets.codepen.io/1692350/46.png",
-    prompt: "splash art, neo noir, cyberpunk girl character portrait, standing in city center, detailed, monochrome with red details",
-    date: "15.11.2022",
-    tags: "characters"
-  },{
-    url: "https://assets.codepen.io/1692350/45.png",
-    prompt: "splash art, neo noir, cyberpunk girl character portrait, standing in city center, detailed, monochrome with red details",
-    date: "15.11.2022",
-    tags: "characters"
-  },{
-    url: "https://assets.codepen.io/1692350/44.png",
-    prompt: "splash art, cyberpunk character portrait, standing in city center, detailed, black outlines drawing style",
-    date: "15.11.2022",
-    tags: "characters"
-  },{
-    url: "https://assets.codepen.io/1692350/43.png",
-    prompt: "splash art, cyberpunk character portrait, standing in city center, detailed, black outlines drawing style",
-    date: "15.11.2022",
-    tags: "characters"
-  },{
-    url: "https://assets.codepen.io/1692350/42.png",
-    prompt: "splash art, cyberpunk character portrait, standing in city center, detailed, black outlines drawing style",
-    date: "15.11.2022",
-    tags: "characters"
   }
 ];
 

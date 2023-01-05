@@ -263,6 +263,11 @@ body.dark .header_work {
   /* Animation */
   /*Shrinking for mobile*/
 }
+@media screen and (max-width: 768px) {
+  .contain_other_info {
+    margin-bottom: 60px;
+  }
+}
 .contain_other_info body {
   margin: 0;
 }
@@ -390,7 +395,7 @@ body.dark .header_work {
 }
 .contain_other_info .inner-header .xg-img-info {
   position: absolute;
-  background: var(--c1);
+  background: black;
   border-top: 4px solid var(--c6);
   box-shadow: 0px 0px 6px var(--c6);
   color: var(--c0);
@@ -1014,6 +1019,10 @@ body.dark .header_work {
 .contain_other_info .contain_contact .form_contact button:hover {
   background-color: #193edf;
   color: white;
+}
+
+.xg-img-wrap {
+  position: relative !important;
 }
 
 body.dark .header_work {

@@ -2,14 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
 
-body{
+body {
 
     &::-webkit-scrollbar {
         width: 18px;
     }
+
     &::-webkit-scrollbar-track {
         background: #f1f1f1;
     }
+
     &::-webkit-scrollbar-thumb {
         background: #1862b6;
     }
@@ -40,7 +42,7 @@ body.dark {
 
 
         background-color: #333333;
-        
+
 
     }
 
@@ -395,6 +397,16 @@ body.dark {
 
 .contain_other_info {
 
+
+
+    @media screen and (max-width: 768px) {
+
+        margin-bottom: 60px;
+
+
+    }
+
+
     @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
     body {
@@ -430,18 +442,21 @@ body.dark {
         padding: 0;
         overflow-y: auto;
 
-        &::-webkit-scrollbar{
+        &::-webkit-scrollbar {
             width: 15px;
 
         }
-        &::-webkit-scrollbar-track{
+
+        &::-webkit-scrollbar-track {
             background-color: rgb(255, 255, 255);
 
         }
-        &::-webkit-scrollbar-thumb{
+
+        &::-webkit-scrollbar-thumb {
             background-color: #6190E8;
             border-radius: 10px;
         }
+
         /*https://fonts.google.com/specimen/Major+Mono+Display?category=Monospace*/
 
         @import url('https://fonts.googleapis.com/css2?family=Exo:wght@200;300;400&display=swap');
@@ -513,6 +528,8 @@ body.dark {
         .xg-container {
             column-count: 4;
             column-gap: 20px;
+
+
         }
 
         .xg-img-wrap {
@@ -528,6 +545,7 @@ body.dark {
             display: flex;
             box-sizing: border-box;
             border: 1px solid var(--c2);
+
         }
 
         /*.xg-img-wrap:hover{
@@ -536,8 +554,8 @@ box-shadow: 2px 2px 0px var(--c6);
 
         .xg-img-info {
             position: absolute;
-            background: var(--c1)
-                /*rgba(20,20,20,0.9)*/
+            background: black
+                // /*rgba(20,20,20,0.9)*/
             ;
             border-top: 4px solid var(--c6);
             box-shadow: 0px 0px 6px var(--c6);
@@ -1177,10 +1195,11 @@ top: 18px;
         align-items: center;
 
         @media screen and (max-width: 768px) {
-           display: flex;
-           justify-content: center;
-           align-items: center;
-            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
         }
 
         .animation {
@@ -1191,9 +1210,10 @@ top: 18px;
             // background-color: yellow;
             height: 100%;
             width: 50%;
+
             @media screen and (max-width: 768px) {
-               display: none;
-                
+                display: none;
+
             }
         }
 
@@ -1210,7 +1230,7 @@ top: 18px;
                 width: 100%;
                 height: 100%;
                 align-items: center;
-                
+
             }
 
 
@@ -1234,29 +1254,29 @@ top: 18px;
                 // background-color:blue;
                 height: auto;
                 width: 100%;
-               
+
 
                 @media screen and (max-width: 768px) {
                     display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                    
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+
                 }
-    
+
 
                 .contain_input1 {
                     margin-top: 10px;
-                  
+
                     @media screen and (max-width: 768px) {
                         display: flex;
                         justify-content: center;
                         align-items: center;
                         flex-direction: column;
                         width: 220px;
-                        
+
                     }
-        
+
 
                     input {
 
@@ -1277,26 +1297,26 @@ top: 18px;
                         }
 
                         @media screen and (max-width: 768px) {
-                       
-    
+
+
                             max-width: 325px;
-                            width: 100% ;
-    
-                           
-                            
+                            width: 100%;
+
+
+
                         }
 
                     }
 
-                    .inputEmail{
+                    .inputEmail {
 
                         @media screen and (max-width: 768px) {
-                       
-    
+
+
                             margin-top: 10px;
-    
-                           
-                            
+
+
+
                         }
 
                     }
@@ -1316,7 +1336,7 @@ top: 18px;
                         border-radius: 5px;
                         // height: 30px;
                         max-width: 325px;
-                        width: 100% ;
+                        width: 100%;
                         padding-left: 10px;
                         font-size: 12px;
                         font-weight: 300;
@@ -1374,6 +1394,32 @@ top: 18px;
 
     }
 
+
+}
+
+.xg-img-wrap{
+
+    position: relative!important;
+    // .xg-img{
+
+    //     background-color: #0D0D0D;
+        
+    
+    // }
+
+    // &:hover{
+
+    //   content: ''!important;
+    //   position: absolute!important;
+    //   top: 0!important;
+    //     left: 0!important;
+    //     bottom: 0!important;
+    //     right: 0!important;
+    //     background: rgba(0,0,0,0.5)!important;
+    //     z-index: 10!important;
+
+
+    // }
 
 }
 
