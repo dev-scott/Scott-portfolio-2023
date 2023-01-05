@@ -523,6 +523,25 @@ body.dark {
 
         .x-gallery {
             height: 100%;
+
+            .gallerie_header{
+
+                h1{
+
+                    font-family: 'Lustria', serif;
+                    font-weight: 300;
+                    letter-spacing: 2px;
+                    font-size: 48px;
+                    color: white;
+                    text-align: center;
+                    margin-bottom: 20px;
+                    width: 100%;
+
+
+                }
+
+            }
+
         }
 
         .xg-container {
@@ -533,6 +552,7 @@ body.dark {
         }
 
         .xg-img-wrap {
+
             /*box-sizing: border-box;
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
@@ -545,6 +565,9 @@ body.dark {
             display: flex;
             box-sizing: border-box;
             border: 1px solid var(--c2);
+            
+
+
 
         }
 
@@ -554,20 +577,20 @@ box-shadow: 2px 2px 0px var(--c6);
 
         .xg-img-info {
             position: absolute;
-            background: black
-                // /*rgba(20,20,20,0.9)*/
             ;
-            border-top: 4px solid var(--c6);
-            box-shadow: 0px 0px 6px var(--c6);
+
             color: var(--c0);
-            height: 150px;
+            height: 100%;
             width: 120%;
-            left: -10%;
+            // left: -10%;
             bottom: 0%;
-            padding: 10px;
+            top: 0%;
+            // padding: 10px;
             transform: rotate(10deg) translate(0%, 120%);
             transition: 200ms cubic-bezier(0, 0, 0.2, 1.0);
             user-select: none;
+            z-index: -11;
+
         }
 
         /*.xg-img-info::before{
@@ -590,7 +613,7 @@ top: 18px;
 }*/
 
         .xg-img-info-open {
-            transform: rotate(10deg) translate(0%, 20%);
+            transform: translate(0%, 20%);
         }
 
         .xg-img-info-inner {
@@ -612,7 +635,12 @@ top: 18px;
             height: 100%;
             object-fit: cover;
             user-select: none;
-            user-drag: none;
+            // user-drag: none;
+            
+
+        
+
+            
         }
 
         .xg-img-prompt {
@@ -1397,14 +1425,14 @@ top: 18px;
 
 }
 
-.xg-img-wrap{
+.xg-img-wrap {
 
-    position: relative!important;
+    position: relative !important;
     // .xg-img{
 
     //     background-color: #0D0D0D;
-        
-    
+
+
     // }
 
     // &:hover{
