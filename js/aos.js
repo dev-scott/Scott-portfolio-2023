@@ -1,5 +1,12 @@
 xgallery_images = [
   {
+    url: "../img/ProjetImg/ecommerce.png",
+    prompt: "Chat Application using scss",
+    date: "17.11.2022",
+    tags: "abstract",
+    lien:"https://react-course-comfy-sloth-store.netlify.app/"
+  },
+  {
     url: "../img/ProjetImg/chat.png",
     prompt: "Chat Application using scss",
     date: "17.11.2022",
@@ -49,6 +56,13 @@ xgallery_images = [
     tags: "abstract",
     lien:"https://dev-scott.itch.io/scottland?secret=MR2COMnbhRFiUgR5dBlpboqL0FY"
   },
+  {
+    url: "../img/ProjetImg/flash.png",
+    prompt: "A website for a company",
+    date: "17.11.2022",
+    tags: "abstract",
+    lien:"https://dev-scott.site"
+  }
   
 ];
 
