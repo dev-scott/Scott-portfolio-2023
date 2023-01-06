@@ -304,16 +304,16 @@
 
         <div class="contain_input">
           <div class="contain_input1">
-            <input type="text" name="name" placeholder="Nmae" id="">
+            <input type="text" name="name" placeholder="Nmae" id="fullName">
             <input class="inputEmail" type="email" placeholder="Email">
           </div>
 
           <div class="contain_input2">
 
             <!-- <textarea name="" id="" cols="30" rows="7" placeholder="Message" ></textarea> -->
-            <input type="text" placeholder="Message" name="Message">
+            <input type="text" placeholder="Message" name="Message" id="message">
           </div>
-          <button>Submit</button>
+          <button class="submitBtn">Submit</button>
 
         </div>
 
@@ -368,6 +368,15 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./js/aos.js"></script>
+  <script src="./js/email.js" ></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+      (function() {
+          // https://dashboard.emailjs.com/admin/account
+          emailjs.init('qwnRMj_oCjIwNsUnD');
+      })();
+  </script>
 
 
   <script>
