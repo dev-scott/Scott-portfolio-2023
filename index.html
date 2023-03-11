@@ -9,7 +9,23 @@
     rel="stylesheet" />
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css"
+    integrity="sha512-L+sMmtHht2t5phORf0xXFdTC0rSlML1XcraLTrABli/0MMMylsJi3XA23ReVQkZ7jLkOEIMicWGItyK4CAt2Xw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js"
+    integrity="sha512-6DC1eE3AWg1bgitkoaRM1lhY98PxbMIbhgYCGV107aZlyzzvaWCW1nJW2vDuYQm06hXrW0As6OGKcIaAVWnHJw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.slim.js"
+    integrity="sha512-G1QAKkF7DrLYdKiz55LTK3Tlo8Vet2JnjQHuJh+LnU0zimJkMZ7yKZ/+lQ/0m94NC1EisSVS1b35jugu3wLdQg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 
   <title>Dev.Scott</title>
 </head>
@@ -20,7 +36,7 @@
     <!-- navbar -->
     <nav class=" contain_nav w-full fixed top-0  z-10 dark:bg-slate-900">
       <div class="container mx-auto py-5 flex items-center justify-between">
-        <div class="flex items-center gap-2">
+        <div class=" flex items-center gap-2">
           <!-- <img class="w-8" src="./img/logo.png" alt="" /> -->
           <span class=" text-2xl font-bold text-white dark:text-white">Dev.Scott</span>
         </div>
@@ -43,31 +59,37 @@
         </ul>
         <img id="moon" src="./img/moon.png" class="hidden md:block w-5 cursor-pointer" alt="" />
 
-        <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
-          <div class="w-6 h-0.5 bg-black"></div>
-          <div class="w-6 h-0.5 bg-black"></div>
-          <div class="w-6 h-0.5 bg-black"></div>
+        <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-50">
+          <div class="w-6 h-0.5 bg-white"></div>
+          <div class="w-6 h-0.5 bg-white"></div>
+          <div class="w-6 h-0.5 bg-white"></div>
         </div>
-        <ul id="menu"
-          class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
-          <li>
-            <a id="hLink" href="#">homepage</a>
-          </li>
-          <li>
-            <a id="hLink" href="#about">about me</a>
-          </li>
-          <li>
-            <a id="hLink" href="#services">services</a>
-          </li>
-          <li>
-            <a id="hLink" href="#works">works</a>
-          </li>
-          <li>
-            <a id="hLink" href="#contact">contact</a>
-          </li>
-        </ul>
+
       </div>
     </nav>
+    <ul id="menu" class="menu">
+
+      <div class=" hamburger close_hamburger" id="clonse_modal">
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <li>
+        <a id="hLink" href="#">homepage</a>
+      </li>
+      <li>
+        <a id="hLink" href="#about">about me</a>
+      </li>
+      <li>
+        <a id="hLink" href="#services">services</a>
+      </li>
+      <li>
+        <a id="hLink" href="#works">works</a>
+      </li>
+      <li>
+        <a id="hLink" href="#contact">contact</a>
+      </li>
+    </ul>
     <!-- intro content -->
     <!-- image -->
     <img class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover" src="./img/me.png" alt=""
@@ -164,7 +186,7 @@
     </div>
   </div>
   <!-- services -->
-  <div id="services " class="contain_services dark:bg-slate-900">
+  <div id="services" class="contain_services dark:bg-slate-900">
     <!-- <div class="slider-thumb"></div> -->
     <div class="container mx-auto">
       <!-- top -->
@@ -240,7 +262,7 @@
 
 
 
-  <div class="contain_other_info">
+  <div id="works" class="contain_other_info">
 
     <div class="header header_work">
 
@@ -431,7 +453,7 @@
     <!--Header ends-->
 
     <!--Content starts-->
-    <div class="contain_contact">
+    <div id="contact" class="contain_contact dark:bg-black">
       <div class="animation">
         <lottie-player src="./animation.json" background="transparent" speed="1" style="width: 300px; height: 300px;"
           loop autoplay></lottie-player>

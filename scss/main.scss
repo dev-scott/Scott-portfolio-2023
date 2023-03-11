@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
 
 body {
 
@@ -26,7 +27,7 @@ body.dark {
     .contain_home {
 
         background: rgb(14, 28, 64);
-
+        position: relative;
 
         .contain_nav {
 
@@ -51,6 +52,7 @@ body.dark {
 .contain_nav {
     transition: background 0.5s ease-in-out;
 
+    padding: 0 10px;
 
     background: #2f14b3;
     /* fallback for old browsers */
@@ -74,6 +76,79 @@ body.dark {
 
     }
 
+}
+
+
+#hamburger {
+    z-index: 100 !important;
+}
+
+.close_hamburger {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    // background-color: white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+
+    .line {
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .line:first-child {
+        transform: translateY(-50%) rotate(45deg);
+    }
+
+    .line:last-child {
+        transform: translateY(-50%) rotate(-45deg);
+    }
+
+
+}
+
+
+#menu {
+
+    width: 100%;
+    height: 100%;
+    background-color: #20BDFF;
+    position: fixed;
+
+    top: -103%;
+
+    transition: all ease-in-out 0.5s;
+
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+
+    li {
+
+        font-family: 'Climate Crisis', cursive;
+
+    }
+
+
+}
+
+.showToggle {
+    top: 0 !important;
 }
 
 
@@ -1433,6 +1508,10 @@ top: 18px;
 
         }
 
+    }
+
+    .contain_contact.dark {
+        background-color: rgb(14, 28, 64);
     }
 
 

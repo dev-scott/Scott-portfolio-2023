@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lustria&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap");
 body::-webkit-scrollbar {
   width: 18px;
 }
@@ -17,6 +18,7 @@ body.dark {
 }
 body.dark .contain_home {
   background: rgb(14, 28, 64);
+  position: relative;
 }
 body.dark .contain_home .contain_nav {
   background: rgb(14, 28, 64);
@@ -29,6 +31,7 @@ body.dark .header_work {
 
 .contain_nav {
   transition: background 0.5s ease-in-out;
+  padding: 0 10px;
   background: #2f14b3;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #1c71b2, #1862b6, #5433FF);
@@ -42,6 +45,60 @@ body.dark .header_work {
 }
 .contain_nav .linkUl:hover {
   color: rgb(29, 27, 27);
+}
+
+#hamburger {
+  z-index: 100 !important;
+}
+
+.close_hamburger {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.close_hamburger .line {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.close_hamburger .line:first-child {
+  transform: translateY(-50%) rotate(45deg);
+}
+.close_hamburger .line:last-child {
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+#menu {
+  width: 100%;
+  height: 100%;
+  background-color: #20BDFF;
+  position: fixed;
+  top: -103%;
+  transition: all ease-in-out 0.5s;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+#menu li {
+  font-family: "Climate Crisis", cursive;
+}
+
+.showToggle {
+  top: 0 !important;
 }
 
 #works .work_subtext {
@@ -1039,6 +1096,9 @@ body.dark .header_work {
 .contain_other_info .contain_contact .form_contact button:hover {
   background-color: #193edf;
   color: white;
+}
+.contain_other_info .contain_contact.dark {
+  background-color: rgb(14, 28, 64);
 }
 
 .xg-img-wrap {
